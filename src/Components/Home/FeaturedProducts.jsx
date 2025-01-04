@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './FeaturedProducts.css'
-import ProductCard from './ProductCard'
+import ProductCard from '../Products/ProductCard'
 
 const FeaturedProducts = () => {
   return (
@@ -10,7 +10,7 @@ const FeaturedProducts = () => {
 
         <div className="align_center featured_products_list">
             <ProductCard />
-            <ProductCard />
+            <ProductCard /> 
             <ProductCard />
         </div>
     </section>
